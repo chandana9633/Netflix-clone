@@ -1,0 +1,83 @@
+.login{
+    height:100vh;
+    background:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.login::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.65);
+}
+
+.login-logo{
+    position:absolute;
+    top:25px;
+    left:40px;
+    color:#e50914;
+    font-size:40px;
+    font-weight:800;
+    z-index:2;
+}
+
+.login-box{
+    position:relative;
+    z-index:2;
+    width:350px;
+    padding:60px 50px;
+    background:rgba(0,0,0,0.75);
+    color:white;
+    border-radius:6px;
+}
+
+.login-box h2{
+    margin-bottom:25px;
+}
+
+.login-box input{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:4px;
+    background:#333;
+    color:white;
+}
+
+.login-btn{
+    width:100%;
+    padding:14px;
+    background:#e50914;
+    border:none;
+    color:white;
+    font-weight:bold;
+    border-radius:4px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.login-btn:hover{
+    background:#f6121d;
+}
+
+.switch-text{
+    margin-top:20px;
+    color:#b3b3b3;
+}
+
+.switch-text span{
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.error{
+    color:#ffb3b3;
+    margin-bottom:10px;
+}

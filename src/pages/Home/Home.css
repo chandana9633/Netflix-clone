@@ -1,0 +1,41 @@
+.home {
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+  padding-top: 68px;  
+}
+.movie-row {
+  padding: 30px 60px;
+  margin-top: 10px;
+}
+
+.row-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.row-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: scroll;
+  gap: 12px;
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row-poster {
+  max-height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.row-poster:hover {
+  transform: scale(1.08);
+}
